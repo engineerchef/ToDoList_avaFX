@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tolgaduran.notdefteri.YeniNotEkle">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="373.0" prefWidth="572.0">
+         <children>
+            <JFXTextField fx:id="notBaslik" labelFloat="true" layoutX="9.0" layoutY="16.0" prefHeight="25.0" prefWidth="550.0" promptText="Not Başlığı" unFocusColor="#42a5f5">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextArea fx:id="notDetay" labelFloat="true" layoutX="9.0" layoutY="93.0" prefHeight="200.0" prefWidth="550.0" promptText="Not Detayı" unFocusColor="#42a5f5" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextArea>
+            <JFXDatePicker fx:id="notBitisTarihi" defaultColor="#42a5f5" layoutX="9.0" layoutY="316.0" prefHeight="40.0" prefWidth="550.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
